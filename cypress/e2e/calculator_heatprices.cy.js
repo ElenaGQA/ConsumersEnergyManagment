@@ -139,7 +139,7 @@ describe('saving calculator - locations tests', () => {
 
     })
 
-    it('verifies current and new heating costs changing depending on a change of current and new heating systems', () => {
+    it('verifies annual and 10 year savings changing depending on a change of current and new heating systems', () => {
 
         cy.get(selectors.calculator_totalAnnualSavings).invoke('text').then(initialValueTAS1 => {
             cy.get(selectors.calculator_10YearSavings).invoke('text').then(initialValue10YS1 => {
