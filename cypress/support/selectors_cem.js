@@ -25,6 +25,7 @@ export default {
     calculator_currentheat: '[name="heattype"]',
     calculator_chc: '[id="CHC"]',
     calculator_newheat: '[name="heatingtype"]',
+    calculator_ahs: '[id="AHS"]',
     calculator_nhc: '[id="NHC"]',
     calculator_chs: '[id="CHS"]',
     calc_totalAnnualSavings: '[id="VTAS"]',
